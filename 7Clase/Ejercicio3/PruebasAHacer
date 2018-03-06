@@ -1,0 +1,22 @@
+Pruebas de desempeño C vs C++ vs Java
+
+1.- Generar una cadena de 100x26ˆ3 tokens, hacer la búsqueda del token "IPN"
+Comparar los tiempos de los tres lenguajes
+
+2.- Hacer la comparativa de cálculos numéricos
+
+double i=0;
+while(i<Max){//Max debe ser suficientemente grande para que tarde mas o menos 5 segundos en C
+  seno+=sin(i);
+  coseno+=cos(i);
+  tangente+=tan(i);
+  logaritmo+=log10(i);
+  raizCuadrada+=sqrt(i);
+  i++
+}
+
+
+En todos los códigos, optimizar lo más posible
+
+3.- ¿Qué demora más, crear la cadna o hacer la búsqueda?
+    ¿Cúal es la proporción entre ambos tiempos?
