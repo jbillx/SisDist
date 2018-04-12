@@ -1,8 +1,5 @@
-asdasdasdasd
-asdasd
-ff
-f
-asf
-sad
-asf
-a
+Esta es una prueba de un archivo
+
+Debe de copiarse toda la informacion
+
+Saludos
