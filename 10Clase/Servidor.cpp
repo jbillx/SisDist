@@ -7,7 +7,7 @@
 #include "SocketDatagrama.h"
 
 using namespace std;
-int puerto = 7300;
+int puerto = 7303;
 
 int main()
 {
@@ -20,7 +20,7 @@ int main()
 		num = (unsigned int *)paquete.obtieneDatos(); //Obtiene los datos del paquete
 		unsigned int i=num[1];
 		unsigned int respuesta=1;
-		for (i;i<num[2];i++){
+		for (i;i<=num[2];i++){
 			if(num[0]%i==0){
 				respuesta=0;
 				break;
